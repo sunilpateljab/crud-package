@@ -1,1 +1,26 @@
+{
+    "name": "crudpacakage/crud",
+    "description": "This is for crud",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Crudpacakage\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sunil"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
 
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Crudpacakage\\Crud\\CrudServiceProvider"
+        ]
+    }
+},
+}
